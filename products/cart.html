@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Trend Talks</title>
+
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            background:#f4f4f4;
+            margin:0;
+            padding:0;
+        }
+
+        h1{
+            background:black;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        .cart-box{
+            width:400px;
+            margin:50px auto;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px gray;
+        }
+
+        .item{
+            display:flex;
+            justify-content:space-between;
+            margin-bottom:20px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            background:black;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Your Cart</h1>
+
+    <div class="cart-box">
+
+        <div class="item">
+            <h3>T-Shirt</h3>
+            <h3>₹799</h3>
+        </div>
+
+        <div class="item">
+            <h3>Shoes</h3>
+            <h3>₹1999</h3>
+        </div>
+
+        <hr>
+
+        <h2>Total : ₹2798</h2>
+
+        <button>Proceed To Checkout</button>
+
+    </div>
+
+</body>
+</html>
